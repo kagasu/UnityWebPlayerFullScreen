@@ -19,7 +19,7 @@
         <ListView x:Name="listViewDisplays" HorizontalAlignment="Left" Height="168" Margin="10,39,0,0" VerticalAlignment="Top" Width="219" ItemsSource="{Binding}">
             <ListView.View>
                 <GridView >
-                    <GridViewColumn DisplayMemberBinding="{Binding DeviceName}" Header="No" />
+                    <GridViewColumn DisplayMemberBinding="{Binding DeviceName}" Header="DeviceName" />
                     <GridViewColumn DisplayMemberBinding="{Binding Bounds.Width}" Header="Width" />
                     <GridViewColumn DisplayMemberBinding="{Binding Bounds.Height}" Header="Height" />
                 </GridView>
